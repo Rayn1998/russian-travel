@@ -1,0 +1,40 @@
+.place__text {
+  grid-area: text;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__text {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .place__text {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .place__text {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    margin-top: 32px;
+  }
+}
