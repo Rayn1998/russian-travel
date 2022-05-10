@@ -1,12 +1,25 @@
 @font-face {
-  font-family: "Inter", "Arial", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+  font-family: "Inter", sans-serif;
+  src: url(../vendor/fonts/Inter-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../vendor/fonts/Inter-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 .page {
   background-color: #2a2c2f;
   max-width: 1280px;
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
