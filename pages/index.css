@@ -1,5 +1,6 @@
 /* OVERALL PAGE */
 @import url("./normalize.css");
+@import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page.css");
 
 /* HEADER */

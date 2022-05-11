@@ -13,39 +13,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    left: 332px;
-    bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    left: 204px;
-    bottom: 115px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .cover__subtitle {
-    font-size: 16px;
-    line-height: 18px;
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 420px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
-    left: 16px;
-    bottom: 33px;
   }
 }
