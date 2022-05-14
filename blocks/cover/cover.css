@@ -1,9 +1,15 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 92px 0;
   /* min-height: 740px; */
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 90px 0 88px;
+  }
 }
 
 @media screen and (max-width: 600px) {

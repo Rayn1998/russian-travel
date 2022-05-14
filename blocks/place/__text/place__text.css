@@ -1,17 +1,29 @@
 .place__text {
   grid-area: text;
   margin-top: 8px;
-  min-width: 300px;
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__text {
     margin-top: 16px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    max-width: 352px;
+    gap: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__text {
     margin-top: 32px;
+    max-width: 288px;
   }
 }
