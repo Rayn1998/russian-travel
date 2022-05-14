@@ -1,5 +1,7 @@
 .cover {
   max-width: 1184px;
+  display: block;
+  /* max-height: 740px; */
   margin: 0 auto;
   /* overflow: hidden; */
   padding: 92px 0;

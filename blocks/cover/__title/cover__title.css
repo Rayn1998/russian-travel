@@ -13,11 +13,6 @@
   color: #ffffff;
 }
 
-.cover__title:before {
-  filter: opacity(0.8);
-  transition: all 0.4s ease;
-}
-
 @media screen and (max-width: 760px) {
   .cover__title {
     font-size: 72px;
@@ -36,5 +31,6 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+    /* padding: 0 16px; */
   }
 }
