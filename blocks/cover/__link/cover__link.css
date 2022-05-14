@@ -1,4 +1,5 @@
-.cover__link {
+.cover__link:link,
+.cover__link:visited {
   position: relative;
   z-index: 1;
   display: flex;
